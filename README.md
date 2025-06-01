@@ -1,6 +1,6 @@
-This Repository Contains Two Projects Using Variational Autoencoders (VAEs)
-Project 1: VAE on MNIST – Digit Generation
-This notebook implements:
+# This Repository Contains Two Projects Using Variational Autoencoders (VAEs)
+
+# Project 1: VAE on MNIST – Digit Generation
 
 Basic VAE for unsupervised digit generation
 
@@ -17,8 +17,10 @@ Experiment with different β values to observe their effect on disentanglement
 
 Generate digits for specific classes using the trained decoder
 
-Project 2: VAE for Anomaly Detection – Credit Card Fraud Detection
-In this notebook, a VAE is trained only on non-fraudulent transactions from the Credit Card Fraud Detection dataset.
+---------------------------------------------------------------
+
+# Project 2: VAE for Anomaly Detection – Credit Card Fraud Detection
+A VAE is trained only on non-fraudulent transactions from the Credit Card Fraud Detection dataset.
 After training, reconstruction error is used to detect anomalous (fraudulent) transactions.
 
 Features
